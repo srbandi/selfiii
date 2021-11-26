@@ -30,7 +30,7 @@ function pictake(){
 
 function save(){
 
-    var imglink = document.getElementById("capture").scr;
+    var imglink = document.getElementById("capture").src;
     var anchorref = document.getElementById("link");
     anchorref.href=imglink;
     anchorref.click();
